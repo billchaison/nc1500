@@ -9,6 +9,10 @@ The web page on the device presents a user with this login page.  If you enter a
 
 ![alt text](https://github.com/billchaison/nc1500/raw/main/mo1.png)
 
+The source HTML of the device's landing page includes a remark, which is a reference to the backdoor password.
+
+![alt text](https://github.com/billchaison/nc1500/raw/main/mo4.png)
+
 The backdoor and default passwords appear as XOR encoded strings in the `NC1500Applet.class` file.  The decoding function also appears in the same file, which transforms each character to plaintext using 0x40.
 
 ![alt text](https://github.com/billchaison/nc1500/raw/main/mo2.png)<br />
